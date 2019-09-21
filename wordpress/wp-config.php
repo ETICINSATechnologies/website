@@ -31,7 +31,7 @@ define('DB_USER', 'pofc_WP436540');
 define('DB_PASSWORD', 'a3NOEcl2Ry');
 
 /** MySQL hostname */
-define('DB_HOST', 'pofc.myd.infomaniak.com');
+define('DB_HOST', 'db:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
