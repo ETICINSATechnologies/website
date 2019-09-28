@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-08-20 16:31:26+0000\n"
+"PO-Revision-Date: 2019-09-23 09:57:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -129,7 +129,7 @@ msgstr "Una vez por minuto"
 
 #: class-multisite.php:803
 msgid "You have just started enabling or disabling SSL on multiple websites at once, and this process is not completed yet. Please refresh this page to check if the process has finished. It will proceed in the background."
-msgstr "Acabas de empezar a activar o desactivar el SSL en varios sitios a la vez y este proceso todavía no ha terminado. Recarga esta página para ver si el proceso ha terminado, continuará en segundo plano."
+msgstr "Acabas de empezar a activar o desactivar el SSL en varios sitios a la vez y este proceso todavía no ha terminado. Recarga esta página para ver si el proceso ha terminado.  Continuará en segundo plano."
 
 #: class-multisite.php:802
 msgid "Conversion of websites %s percent complete."
@@ -249,11 +249,11 @@ msgstr "Detectados posibles errores con el certificado"
 
 #: class-admin.php:81
 msgid "Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" target=\"_blank\">here</a>."
-msgstr "Really Simple SSL y las extensiones para Really Simple SSL no procesan información personal identificable, así que el RGPD no se aplica a estos plugins o el uso de estos plugins en tu web. Puedes encontrar nuestra política de privacidad <a href=\"%s\" target=\"_blank\">aquí</a>."
+msgstr "Really Simple SSL y las extensiones para Really Simple SSL no procesan información personal identificable, así que el RGPD no se aplica a estos plugins o al uso de estos plugins en tu web. Puedes encontrar nuestra política de privacidad <a href=\"%s\" target=\"_blank\">aquí</a>."
 
 #: class-admin.php:468
 msgid "It is recommended to take a %sbackup%s of your site before activating SSL"
-msgstr "Se recomienda hacer  una %scopia de seguridad%s de tu sitio antes de activar SSL"
+msgstr "Se recomienda hacer una %scopia de seguridad%s de tu sitio antes de activar SSL"
 
 #. Author URI of the plugin
 msgid "https://really-simple-plugins.com"
@@ -269,7 +269,7 @@ msgstr "No olvides cambiar tus ajustes en Google Analytics y Webmaster tools."
 
 #: class-admin.php:3587
 msgid "If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer."
-msgstr "Si se configura esta opción en true el solucionador de contenido mixto lanzará el gancho init en vez del gancho template_redirect. Usa esta opción solo cuando experimentes problemas con el solucionador de contenido mixto."
+msgstr "Si se configura esta opción a true, el solucionador de contenido mixto lanzará el gancho init en vez del gancho template_redirect. Usa esta opción solo cuando experimentes problemas con el solucionador de contenido mixto."
 
 #: class-admin.php:3526
 msgid "The plugin could not detect any possible redirect rule."
@@ -289,7 +289,7 @@ msgstr "Si quieres más opciones para tener un control total sobre tu red multis
 
 #: class-multisite.php:1004
 msgid "You are running Really Simple SSL pro. A dedicated add-on for multisite has been released. If you want more options to have full control over your multisite network, you can ask for a discount code to %supgrade%s your license to a multisite license."
-msgstr "Estás ejecutando Really Simple SSL pro, Se ha lanzado una extensión exclusiva para multisitio. Si quieres tener más control sobre tu red multisitio puedes pedir un código de descuento para %sactualizar%s tu licencia a una licencia mulitisitio."
+msgstr "Estás ejecutando Really Simple SSL pro. Se ha lanzado una extensión exclusiva para multisitio. Si quieres tener más control sobre tu red multisitio puedes pedir un código de descuento para %sactualizar%s tu licencia a una licencia mulitisitio."
 
 #: class-multisite.php:825
 msgid "SSL was activated per site."
@@ -309,7 +309,7 @@ msgstr "Opciones guardadas"
 
 #: class-multisite.php:203
 msgid "Select to enable SSL networkwide or per site."
-msgstr "Elige para activar SSL en toda la red o en por sitio"
+msgstr "Selecciona activar SSL en toda la red o por sitio."
 
 #: class-multisite.php:198
 msgid "per site"
@@ -390,7 +390,7 @@ msgstr "Activa esto si quieres usar la redirección 301 interna de WordPress. Ne
 
 #: class-admin.php:3432
 msgid "This is a fallback you should only use if other redirection methods do not work."
-msgstr "Esto es un atraso que solo deberías usar si no funcionan el resto de métodos de redirección."
+msgstr "Esto es un método alternativo que solo deberías usar si no funcionan el resto de métodos de redirección."
 
 #: class-admin.php:3401
 msgid "Enable this option to get debug info in the debug tab."
@@ -418,7 +418,7 @@ msgstr "recarga en https."
 
 #: class-multisite.php:325
 msgid "No SSL was detected. If you do have an SSL certificate, try to reload this page over https by clicking this link:"
-msgstr "No se detectó ningún SSL. Si tienes un certificado ssl trata de recargar esta página en https haciendo clic en este enlace:"
+msgstr "No se detectó ningún SSL. Si tienes un certificado SSL trata de recargar esta página en https haciendo clic en este enlace:"
 
 #: class-admin.php:3299
 msgid "Settings to optimize your SSL configuration"
@@ -482,7 +482,7 @@ msgstr "Debido a que tu sitio está detrás de un balanceador de carga y is_ssl(
 
 #: class-admin.php:1995
 msgid "Your wp-config.php has to be edited, but is not writable."
-msgstr "Hay que modificar tu wp-config.php pero no tiene permisos de escritura. "
+msgstr "Tu archivo «wp-config.php» tiene que ser editado, pero no tiene permisos de escritura."
 
 #: class-admin.php:1992 class-admin.php:2020
 msgid "Set your wp-config.php to writable and reload this page."
@@ -657,7 +657,7 @@ msgstr "Comprobar de nuevo"
 
 #: class-admin.php:2133
 msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactived by anyone on the internet."
-msgstr "El archivo 'force-deactivate.php' se ha renombrado a .txt. De otro modo tu ssl podría desactivarlo cualquiera."
+msgstr "El archivo «force-deactivate.php» tiene que ser renombrado a «.txt». En caso contrario, tu SSL lo puede desactivar cualquiera en internet."
 
 #: class-multisite.php:774 class-admin.php:2130
 msgid "Major security issue!"

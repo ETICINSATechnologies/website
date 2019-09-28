@@ -29,8 +29,8 @@ services:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: pofc_WP436540
       WORDPRESS_DB_PASSWORD: a3NOEcl2Ry
-      WORDPRESS_WP_HOME: http://localhost:5000
-      WORDPRESS_WP_SITEURL: http://localhost:5000
+      WORDPRESS_WP_HOME: http://demo.etic-insa.com
+      WORDPRESS_WP_SITEURL: http://demo.etic-insa.com
 
 volumes:
   db_data:

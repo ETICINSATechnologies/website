@@ -17,6 +17,8 @@ require get_template_directory() . '/plugins/plugins.php';
 
 require_once ABSPATH . "wp-admin" . '/includes/file.php';
 
+remove_filter('template_redirect', 'redirect_canonical');
+
 if ( ! isset( $content_width ) ) {
 	$content_width = 1170;
 }

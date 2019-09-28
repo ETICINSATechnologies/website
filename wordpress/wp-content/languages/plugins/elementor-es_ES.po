@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-09-10 21:33:52+0000\n"
+"PO-Revision-Date: 2019-09-18 18:37:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -629,7 +629,7 @@ msgstr "Personalizado"
 
 #: includes/settings/settings.php:322
 msgid "Theme Builder is the industry leading all-in-one solution that lets you customize every part of your WordPress theme visually: Header, Footer, Single, Archive & WooCommerce."
-msgstr "El maquetador de temas es la solución todo en uno líder que te permite personalizar visualmente cada parte de tu tema WordPress: cabecera, pie de página, página única, archivo y WooCommerce. "
+msgstr "El maquetador de temas es la solución líder todo en uno que te permite personalizar visualmente cada parte de tu tema WordPress: cabecera, pie de página, página única, archivo y WooCommerce. "
 
 #: includes/settings/settings.php:321
 msgid "Get Theme Builder"
@@ -637,11 +637,11 @@ msgstr "Obtener el maquetador de temas"
 
 #: includes/settings/settings.php:301
 msgid "Popup Builder lets you take advantage of all the amazing features in Elementor, so you can build beautiful & highly converting popups. Go pro and start designing your popups today."
-msgstr "El maquetador de mensajes emergentes te permite aprovechar todas las increíbles características de Elementor, para que puedas construir bonitos y altamente convertibles mensajes emergente. Hazte profesional y empieza a diseñar tus mensajes emergentes hoy mismo."
+msgstr "El maquetador de mensajes emergentes te permite aprovechar todas las increíbles características de Elementor, para que puedas construir bonitos y altamente convertibles mensajes emergentes. Hazte Pro y empieza a diseñar tus mensajes emergentes hoy mismo."
 
 #: includes/settings/settings.php:300
 msgid "Get Popup Builder"
-msgstr "Optener el creador de mensajes emergentes"
+msgstr "Obtener el creador de mensajes emergentes"
 
 #: includes/template-library/sources/local.php:1581
 #: includes/settings/settings.php:151
@@ -898,7 +898,7 @@ msgstr "Lorem fistrum por la gloria de mi madre esse jarl aliqua llevame al sirc
 
 #: includes/settings/settings.php:601
 msgid "Show editing handles when hovering over the element edit button"
-msgstr "Mostrar los controladores de edición cuando se pasa por encima del botón editar del botón"
+msgstr "Mostrar los controladores de edición cuando se pasa por encima del botón editar"
 
 #: includes/settings/settings.php:593
 msgid "Editing Handles"
@@ -1324,11 +1324,11 @@ msgstr "Elige el tipo de plantilla"
 
 #: includes/admin-templates/new-template.php:42
 msgid "Use templates to create the different pieces of your site, and reuse them with one click whenever needed."
-msgstr "Utiliza plantillas para crear distintas partes de tu web, y reutilízalas con un clic cuando sea necesario."
+msgstr "Utiliza plantillas para crear distintas partes de tu web y reutilízalas con un clic cuando sea necesario."
 
 #: includes/settings/settings.php:280
 msgid "Custom Fonts allows you to add your self-hosted fonts and use them on your Elementor projects to create a unique brand language."
-msgstr "Las fuentes personalizadas te permiten añadir tus fuentes alojadas y usarlas en tus proyectos Elementor para crear un lenguje de marca única."
+msgstr "Las fuentes personalizadas te permiten añadir tus fuentes alojadas y usarlas en tus proyectos Elementor para crear un lenguaje único."
 
 #: includes/settings/settings.php:279
 msgid "Add Your Custom Fonts"
@@ -2186,7 +2186,7 @@ msgstr "Elige una o anímate a <a target=\"_blank\" href=\"%s\">crear una</a> ah
 
 #: includes/maintenance-mode.php:357
 msgid "To enable maintenance mode you have to set a template for the maintenance mode page."
-msgstr "Para activar el modo de mantenimiento tu debes escoger una plantilla para la pagina de modo de mantenimiento."
+msgstr "Para activar el modo de mantenimiento debes escoger una plantilla para la página del modo de mantenimiento."
 
 #: includes/maintenance-mode.php:279 includes/maintenance-mode.php:356
 msgid "Edit Template"
@@ -2234,7 +2234,7 @@ msgstr "Escoge modo"
 
 #: includes/maintenance-mode.php:195
 msgid "Set your entire website as MAINTENANCE MODE, meaning the site is offline temporarily for maintenance, or set it as COMING SOON mode, meaning the site is offline until it is ready to be launched."
-msgstr "Si activas tu sitio completo como MODO de Mantenimiento. Eso significa que tu sitio esta offline temporalmente por mantenimiento, si activas el modo próximamente significa que tu sitio esta offline hasta que este preparado para lanzarse."
+msgstr "Establecer tu sitio completo en MODO DE MANTENIMIENTO, significa que tu sitio está offline temporalmente por mantenimiento, o establecerlo en el modo PRÓXIMAMENTE, que significa que tu sitio está offline hasta que esté preparado para lanzarse."
 
 #: core/common/modules/finder/categories/tools.php:65
 #: includes/maintenance-mode.php:190 includes/maintenance-mode.php:194
@@ -2431,11 +2431,11 @@ msgstr "Degradado"
 
 #: includes/settings/settings.php:433
 msgid "Checking this box will disable Elementor's Default Fonts, and make Elementor inherit the fonts from your theme."
-msgstr "Marcando esta casilla desactivarás las fuentes por defecto de Elementor, y hace que Elementor herede las fuentes de tu tema."
+msgstr "Marcando esta casilla desactivarás las fuentes por defecto de Elementor y hace que Elementor herede las fuentes de tu tema."
 
 #: includes/settings/settings.php:425
 msgid "Checking this box will disable Elementor's Default Colors, and make Elementor inherit the colors from your theme."
-msgstr "Marcando esta casilla desactivarás los colores por defecto de Elementor, y hace que Elementor herede los colores de tu tema."
+msgstr "Marcando esta casilla desactivarás los colores por defecto de Elementor y hace que Elementor herede los colores de tu tema."
 
 #: core/admin/admin.php:300
 msgid "Video Tutorials"
@@ -2609,7 +2609,7 @@ msgstr "Extra pequeño"
 
 #: includes/settings/tools.php:221
 msgid "Styles set in Elementor are saved in CSS files in the uploads folder. Recreate those files, according to the most recent settings."
-msgstr "Los estilos configurados en Elementor son guardados en ficheros CSS en la carpeta uploads.Recrea esos ficheros de acuerdo a los ajustes más recientes."
+msgstr "Los estilos configurados en Elementor son guardados en ficheros CSS en la carpeta uploads. Recrea esos ficheros de acuerdo a los ajustes más recientes."
 
 #: includes/settings/tools.php:220
 msgid "Regenerate Files"
@@ -3377,7 +3377,7 @@ msgstr "El más avanzado creador de páginas de arrastrar & soltar. Crea sitios 
 
 #: includes/settings/settings.php:447
 msgid "Opt-in to our anonymous plugin data collection and to updates. We guarantee no sensitive data is collected."
-msgstr "Suscríbete a nuestra recolección anónima de datos y actualizaciones. Te garantizamos que no se guardan datos sensibles."
+msgstr "Suscríbete a nuestra recopilación anónima de datos y actualizaciones del plugin. Te garantizamos que no se recogen datos sensibles."
 
 #: core/editor/editor.php:585
 #: core/common/modules/finder/categories/settings.php:28
@@ -4142,11 +4142,11 @@ msgstr "No tienes permisos para descargar este archivo"
 
 #: includes/settings/system-info/main.php:178
 msgid "Download System Info"
-msgstr "Descargar información del Sistema"
+msgstr "Descargar la información del sistema"
 
 #: includes/settings/system-info/main.php:157
 msgid "You can copy the below info as simple text with Ctrl+C / Ctrl+V:"
-msgstr "Puedes copiar y pegar la info abajo como texto con Ctrl+C / Ctrl+V:"
+msgstr "Puedes copiar y pegar como texto la siguiente información con Ctrl+C / Ctrl+V:"
 
 #: includes/settings/system-info/main.php:155
 msgid "Copy & Paste Info"

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP Super Cache - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-08-16 18:27:19+0000\n"
+"PO-Revision-Date: 2019-09-25 10:47:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,7 @@ msgstr "Recogida de basura cada 10 minutos, con una vida útil de la caché de 3
 
 #: wp-cache.php:1222
 msgid "Cache Rebuild."
-msgstr "Caché reconstuida."
+msgstr "Caché reconstruida."
 
 #: wp-cache.php:1221
 msgid "Simple caching."
@@ -1135,7 +1135,7 @@ msgstr "Prepare su servidor para un pico de tráfico no esperado activando el mo
 
 #: wp-cache.php:1629
 msgid "Lock Down:"
-msgstr "Modo Confinamiento:"
+msgstr "Confinamiento"
 
 #: wp-cache.php:1521
 msgid "Comment moderation is enabled. Your comment may take some time to appear."
@@ -1583,7 +1583,7 @@ msgstr "Faltan los siguientes módulos de Apache. El plugin funcionará en modo 
 
 #: wp-cache.php:458
 msgid "Missing Apache Modules"
-msgstr "Módulos de Apache Ausentes"
+msgstr "Módulos de Apache ausentes"
 
 #: wp-cache.php:451
 msgid "Set the expiry date on supercached pages. Visitors may not see new pages when they refresh or leave comments without this module."
@@ -1723,7 +1723,7 @@ msgstr "Se necesita una estructura personalizada de URL o enlace permanente para
 
 #: wp-cache.php:268
 msgid "Permlink Structure Error"
-msgstr "Error en la Estructura de Enlaces Permanentes"
+msgstr "Error en la estructura de enlaces permanentes"
 
 #: wp-cache.php:262
 msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
