@@ -5,12 +5,15 @@ up:
 	docker-compose up -d
 
 down:
+	docker-compose down
+
+down-wipe:
 	docker-compose down -v
 
 restore-data:
 	./provisioning/restore_data.sh
 
-prod-logs:
+logs:
 	docker-compose logs -f
 
 check:

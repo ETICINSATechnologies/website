@@ -3,9 +3,9 @@ services:
   db:
     build:
       context: ./database
+    volumes:
+      - db_data:/var/lib/mysql
     restart: unless-stopped
-    ports:
-      - "3306"
     environment:
       MYSQL_ROOT_PASSWORD: a3NOEcl2Ry
       MYSQL_DATABASE: pofc_WP436540
@@ -23,7 +23,12 @@ services:
       - "5000:80"
     restart: unless-stopped
     environment:
+      WORDPRESS_DB_NAME: pofc_WP436540
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: pofc_WP436540
       WORDPRESS_DB_PASSWORD: a3NOEcl2Ry
-      WORDPRESS_DB_NAME: pofc_WP436540
+      WORDPRESS_WP_HOME: http://localhost:5000
+      WORDPRESS_WP_SITEURL: http://localhost:5000
+      
+volumes:
+  db_data:

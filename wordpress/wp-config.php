@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'WPCACHEHOME', '/home/clients/9dd2fd0c2dc5f674c190cd70782a3f86/web/etic2.0/wp-content/plugins/wp-super-cache/' );
+define( 'WPCACHEHOME', '/var/www/html/wp-content/plugins/wp-super-cache/' );
 define('WP_CACHE', true);
 define('DB_NAME', 'pofc_WP436540');
 
@@ -92,6 +92,12 @@ $table_prefix  = 'wp_436540_';
 define('WP_DEBUG',          false);
 define('WP_DEBUG_LOG',      false);
 define('WP_DEBUG_DISPLAY',  false);
+define('WP_HOME', $_ENV["WORDPRESS_WP_HOME"]);
+define('WP_SITEURL', $_ENV["WORDPRESS_WP_SITEURL"]);
+/**
+ * define('WP_HOME','https://demo.etic-insa.com');
+ * define('WP_SITEURL','https://demo.etic-insa.com');
+ */
 
 /* That's all, stop editing! Happy blogging. */
 
